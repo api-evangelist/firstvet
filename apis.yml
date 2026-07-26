@@ -1,7 +1,15 @@
 aid: firstvet
 name: FirstVet
-description: 'FirstVet is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'FirstVet is a digital veterinary care company offering 24/7 online video
+  consultations with licensed veterinarians for dogs, cats, and other pets. Founded in
+  Sweden, FirstVet operates a consumer telehealth platform across Sweden, Norway, Denmark,
+  Finland, Germany, the United Kingdom, and the United States, providing virtual vet
+  appointments, healthy pet checkups, follow-up care, and triage guidance on whether a
+  case needs an in-clinic referral. The company partners with pet insurers and employers
+  to offer covered or subsidized access to its subscription-based virtual care. FirstVet
+  is a portfolio company of Creandum. This profile is maintained in the API Evangelist
+  network; FirstVet publishes no public developer API, SDKs, or API documentation as of
+  this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/firstvet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,29 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cms.firstvet.com/uploaded/images/articles/_1200x630_crop_center-center_82_none/Social-Shareable-Image_General.png?mtime=1634826439
 tags:
 - Company
 - Consumer
+- Veterinary
+- Telehealth
+- Pet Care
+- Telemedicine
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://firstvet.com/
+- type: GettingStarted
+  url: https://firstvet.com/us/how-to-use-firstvet
+- type: Pricing
+  url: https://firstvet.com/us/services-and-pricing
+- type: SignUp
+  url: https://account.firstvet.com/us
+- type: Login
+  url: https://auth.firstvet.com/us/
+- type: Support
+  url: https://firstvet.com/us/virtual-care-faq
+- type: Blog
+  url: https://firstvet.com/us/articles
+- type: TermsOfService
+  url: https://firstvet.com/us/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://firstvet.com/us/privacy-policy
+- type: DomainSecurity
+  url: security/firstvet-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
